@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+}
+.top-header {
+  background-color: black;
+  height: 40px;
+  display: flex;
+}
+.header-left {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.header-right {
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.icon {
+  color: white;
+  margin: 10px;
+}
+.companyName {
+  color: white;
+  font-size: small;
+  margin-left: 10px;
+}
+.tag {
+  color: lightgray;
+  font-size: smaller;
+}
+.btn-editor {
+  height: 34px;
+  background-color: gray;
+  border: 1px groove grey;
+  color: white;
+  font-size: smaller;
+  /*padding: 6px;*/
+  margin-right: 4px;
+  border-radius: 0;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 200px;
+  flex-direction: column;
+}
+
+.cover-text {
+  font-size: xx-large;
+}
+.cover-tag {
+  font-size: smaller;
+  color: grey;
+}
+.card-body {
+  text-align: center;
+}
+
+.btn-card {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+}
+.star {
+  color: gold;
+}
+.footer {
+  height: 40px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  margin: 0 auto;
+  color: white;
+  width: 100%;
+}
